@@ -1,0 +1,92 @@
+#InsertMove{
+    position: absolute;
+    top: 15%;
+}
+
+#ProfileImg{
+    position: relative;
+   width: 300px;
+   height: 240px;
+   border-radius: 50%;
+   margin-left: 20px;
+    
+}
+
+#InsertBtn{
+    position: absolute;
+    background-color: orangered;
+    font-size: x-large;
+    font-style: oblique;
+    color: aliceblue;
+    font-weight: 900;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    top:120% ;
+    left:40%;
+}
+#InsertBtn:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+#submit{
+    color: aliceblue;
+    background-color: chartreuse;
+    font-size: x-large;
+    font-weight: 900;
+    font-style: oblique;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: 80%;
+}
+
+#submit:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.btnDark{
+    margin-top: 49px;
+    width: 160px;
+    height: 60px;
+    background-color:rgba(255,255,255,0.4) ;
+    border-radius: 180px;
+    border: 5px;
+    box-shadow: inset 0px 0px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
+    position: relative;
+    left: 62%;
+}
+.btnDark:after{
+    content:"";
+    position: absolute;
+    background: linear-gradient(180deg,#ffcc89,#d8860b);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 5px;
+    transition: 0.5s;
+    
+}
+
+#c{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    display: inline;
+
+  }
+
+#c:checked + .btnDark {
+    background-color: white;
+  }
+
+#c:checked + .btnDark:after{
+    left: 175px;
+    transform: translateY(-100%);
+    background-color: black;
+}
+

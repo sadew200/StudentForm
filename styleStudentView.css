@@ -1,0 +1,27 @@
+#showBox{
+    position: absolute;
+    background-color: rgb(36, 36, 78);
+    padding:20px 30% 20px 20px ;
+    border-radius: 10px;
+    color: white;
+}
+#ProfileImg{
+    position: absolute;
+   width: 200px;
+   height: 160px;
+   border-radius: 50%;
+    top: 30%;
+    
+}
+#move{
+    position: relative;
+    left: 50%;
+}
+.hide{
+    display: none;
+}
+
+.hideCheckbox{
+    display: none;
+}
+

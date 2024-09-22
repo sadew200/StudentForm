@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleStudentView.css">
+</head>
+<body>
+
+    <table class="table table-hover">
+        <thead class="table-dark">
+          <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Email Address
+            </th>
+            <th>
+                Phone Number
+            </th>
+            <th>
+                Address
+            </th>
+            <th>
+                province
+            </th>
+            <th>
+                Guardian
+            </th>
+            <th>
+                Education
+            </th>
+            <th>
+                #View
+            </th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+            <tr>
+                <td>
+                    Name
+                </td>
+                <td>
+                    Email Address
+                </td>
+                <td>
+                    Phone Number
+                </td>
+                <td>
+                    Address
+                </td>
+                <td>
+                    province
+                </td>
+                <td>
+                    Guardian
+                </td>
+                <td>
+                    Education
+                </td>
+              </tr>
+        </tbody>
+      </table>
+      <div id="showBox">
+        <button id="close" style="background-color: red ; font-weight: 900; position: absolute; left: 85%; padding: 10px;" type="button" class="btn-close" aria-label="Close"></button>
+        <div style="position: absolute;">
+        <h2 style="display: inline-block;">ID : </h2><h2 id="id" style="display: inline-block;">null</h2>
+        </div>
+        <img  id="ProfileImg" src="emplyProfileImg.jpg">
+        <div id="move">
+        <h3 style="display: inline-block;">Name : </h3><h3 id="name" style="display: inline-block;">null</h3><br>
+        <h3 style="display: inline-block;">Email Address : </h3><h3 id="email" style="display: inline-block;">null</h3><br>
+        <h3 style="display: inline-block;">Phone Number : </h3><h3 id="phoneNumber" style="display: inline-block;">null</h3><br>
+        <h3 style="display: inline-block;">Address : </h3><h3 id="address" style="display: inline-block;">null</h3><br>
+        <h3 style="display: inline-block;">Province : </h3><h3 id="province" style="display: inline-block;">null</h3><br>
+        <h3 style="display: inline-block;">Guardian : </h3><h3 id="guardian" style="display: inline-block;">null</h3><br>
+        <h3 style="display: inline-block;">Guardian : </h3><h3 id="education" style="display: inline-block;">null</h3><br>
+        </div>
+       
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="studentView.js"></script>
+    <script src="https://kit.fontawesome.com/e4729e38f9.js" crossorigin="anonymous"></script>
+</body>
+</html>
